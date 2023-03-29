@@ -48,8 +48,25 @@ let mido: myUser = {
 
 }
 
+
+type CardNumber ={
+    cardnumber: string
+}
+
+type CardDate ={
+    carddate : string
+}
+
+type CardDetails = CardNumber & CardDate & {
+    CVV : number
+}
+
+
+
+
 mido.email = '@example.com';
 //mido._id = '1234';
+
 
 
 
