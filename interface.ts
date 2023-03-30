@@ -28,4 +28,4 @@ interface MyUser{
 
 interface MyAdmin extends MyUser{
 role: 'admin' | 'learner' | 'ta'
-}
+}  
